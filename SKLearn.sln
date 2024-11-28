@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35004.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningSmartComponents", "LearningSmartComponents\LearningSmartComponents.csproj", "{5A05DCE4-135D-4CE7-AAD6-82B7C2FA0851}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SKLocalRag", "SKLocalRag\SKLocalRag.csproj", "{B0FA5D57-AA4F-4435-95CF-5CD592E682D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A05DCE4-135D-4CE7-AAD6-82B7C2FA0851}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A05DCE4-135D-4CE7-AAD6-82B7C2FA0851}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A05DCE4-135D-4CE7-AAD6-82B7C2FA0851}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A05DCE4-135D-4CE7-AAD6-82B7C2FA0851}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0FA5D57-AA4F-4435-95CF-5CD592E682D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0FA5D57-AA4F-4435-95CF-5CD592E682D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0FA5D57-AA4F-4435-95CF-5CD592E682D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0FA5D57-AA4F-4435-95CF-5CD592E682D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {51C4B85C-BCAB-4C00-98C7-D0C832958026}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="feiyun0112.SemanticKernel.Connectors.OnnxRuntimeGenAI.CPU" Version="1.0.0" />
+    <PackageReference Include="Microsoft.KernelMemory.Core" Version="0.73.240906.1" />
+    <PackageReference Include="Microsoft.SemanticKernel" Version="1.19.0" />
+    <PackageReference Include="Microsoft.SemanticKernel.Connectors.Onnx" Version="1.19.0-alpha" />
+    <PackageReference Include="SmartComponents.LocalEmbeddings.SemanticKernel" Version="0.1.0-preview10148" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Models\**\*.*">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\Phi-3-medium-128k-instruct-onnx-cpu\.git\fsmonitor--daemon\cookies\" />
+    <Folder Include="Models\Phi-3-medium-128k-instruct-onnx-cpu\.git\lfs\incomplete\" />
+    <Folder Include="Models\Phi-3-medium-128k-instruct-onnx-cpu\.git\lfs\tmp\" />
+    <Folder Include="Models\Phi-3-medium-128k-instruct-onnx-cpu\.git\objects\info\" />
+    <Folder Include="Models\Phi-3-medium-128k-instruct-onnx-cpu\.git\objects\pack\" />
+    <Folder Include="Models\Phi-3-medium-128k-instruct-onnx-cpu\.git\refs\tags\" />
+    <Folder Include="Models\Phi-3-medium-4k-instruct-onnx-cpu\.git\fsmonitor--daemon\cookies\" />
+    <Folder Include="Models\Phi-3-medium-4k-instruct-onnx-cpu\.git\lfs\incomplete\" />
+    <Folder Include="Models\Phi-3-medium-4k-instruct-onnx-cpu\.git\lfs\tmp\" />
+    <Folder Include="Models\Phi-3-medium-4k-instruct-onnx-cpu\.git\objects\info\" />
+    <Folder Include="Models\Phi-3-medium-4k-instruct-onnx-cpu\.git\objects\pack\" />
+    <Folder Include="Models\Phi-3-medium-4k-instruct-onnx-cpu\.git\refs\tags\" />
+  </ItemGroup>
+
+</Project>
